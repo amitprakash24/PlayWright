@@ -1,0 +1,9 @@
+{
+  "Registeruser": {
+     "firstName":"adminuser",
+    "lastName":"testDemo",
+    "username": "admin",
+    "password": "password123"
+   
+  }
+}

@@ -1,0 +1,66 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://www.tutorialspoint.com
+      - img [ref=e6] [cursor=pointer]
+    - heading "Selenium - Automation Practice Form" [level=1] [ref=e25]
+    - link "Selenium Tutorial" [ref=e27] [cursor=pointer]:
+      - /url: /selenium/index.htm
+      - img [ref=e28] [cursor=pointer]
+      - text: Selenium Tutorial
+  - main [ref=e30]:
+    - generic [ref=e32]:
+      - generic [ref=e34]:
+        - heading "Elements" [level=2] [ref=e36]:
+          - button "Elements" [ref=e37] [cursor=pointer]:
+            - img [ref=e38] [cursor=pointer]
+            - text: Elements
+        - generic [ref=e40]:
+          - heading "Forms" [level=2] [ref=e41]:
+            - button "Forms" [ref=e42] [cursor=pointer]:
+              - img [ref=e43] [cursor=pointer]
+              - text: Forms
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - link "Practice Form" [ref=e49] [cursor=pointer]:
+                - /url: selenium_automation_practice.php
+                - img [ref=e50] [cursor=pointer]
+                - text: Practice Form
+            - listitem [ref=e52]:
+              - link "Login" [ref=e53] [cursor=pointer]:
+                - /url: login.php
+                - img [ref=e54] [cursor=pointer]
+                - text: Login
+            - listitem [ref=e56]:
+              - link "Register" [ref=e57] [cursor=pointer]:
+                - /url: register.php
+                - img [ref=e58] [cursor=pointer]
+                - text: Register
+        - heading "Alerts, Frames & Windows" [level=2] [ref=e61]:
+          - button "Alerts, Frames & Windows" [ref=e62] [cursor=pointer]:
+            - img [ref=e63] [cursor=pointer]
+            - text: Alerts, Frames & Windows
+        - heading "Widgets" [level=2] [ref=e66]:
+          - button "Widgets" [ref=e67] [cursor=pointer]:
+            - img [ref=e68] [cursor=pointer]
+            - text: Widgets
+        - heading "Interaction" [level=2] [ref=e71]:
+          - button "Interaction" [ref=e72] [cursor=pointer]:
+            - img [ref=e73] [cursor=pointer]
+            - text: Interaction
+      - generic [ref=e76]:
+        - heading "Welcome, Login In" [level=1] [ref=e77]
+        - generic [ref=e78]:
+          - generic [ref=e79]: "Email:"
+          - textbox "Email:" [ref=e81]
+        - generic [ref=e82]:
+          - generic [ref=e83]: "Password:"
+          - textbox "Password:" [ref=e85]
+        - generic [ref=e86]:
+          - button "Login" [ref=e87] [cursor=pointer]
+          - link "New User" [ref=e88] [cursor=pointer]:
+            - /url: register.php
+```

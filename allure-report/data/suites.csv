@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","12376","Register with new user","","Mon Sep 15 09:51:39 IST 2025","passed","Mon Sep 15 09:51:52 IST 2025","","register.spec.js","",""
